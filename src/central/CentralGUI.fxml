@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="520.0" prefWidth="395.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="central.Central">
+   <children>
+      <TableView fx:id="boardView" layoutX="148.0" layoutY="113.0" onMouseClicked="#boardClickedHandler" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+          <TableColumn fx:id="name" prefWidth="75.0" text="Nazwa" />
+          <TableColumn fx:id="stat" prefWidth="52.0" text="Status" />
+            <TableColumn fx:id="temp" prefWidth="96.0" text="Temperatura" />
+            <TableColumn fx:id="wind" prefWidth="89.0" text="Wiatr" />
+            <TableColumn fx:id="p" prefWidth="82.0" text="Opady" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
